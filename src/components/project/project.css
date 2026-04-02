@@ -1,0 +1,72 @@
+.divider {
+  width: 8rem;
+  background-color: var(--Blue300);
+  height: 0.2rem;
+}
+
+.divider2 {
+  width: 18rem;
+  margin: 0.8rem auto;
+  background-color: var(--Blue300);
+  height: 0.2rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 0.8rem 0;
+}
+
+.container {
+  margin-top: 1.2rem;
+  background-color: var(--White);
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.panel {
+  width: 20rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  background-color: var(--Blue100);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.itemImg {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+.itemTag {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+}
+
+.tagItem {
+  background-color: var(--Red100);
+  border-radius: 0.4rem;
+  padding: 0.6rem;
+}
+
+.itemtails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemButton {
+  background-color: var(--yellow100);
+  color: var(--Gray900);
+  border: none;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+}

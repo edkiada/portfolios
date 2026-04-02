@@ -1,0 +1,68 @@
+.divider {
+  width: 8rem;
+  background-color: var(--Blue300);
+  height: 0.2rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 0.8rem 0;
+}
+
+.container {
+  margin-top: 1.2rem;
+  background-color: var(--White);
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.educationTitle {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.educationItem {
+  width: 20rem;
+  background-color: var(--yellow100);
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.time {
+  color: var(--Gray600);
+  font-size: 0.8rem;
+}
+
+.course {
+  color: var(--Gray900);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.SkillItem {
+  background-color: var(--Blue100);
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+}
+
+.Skills > h2 {
+  margin: 1.2rem 0;
+}
+
+.SkillPanel {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+}

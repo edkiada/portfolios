@@ -1,0 +1,37 @@
+:root {
+  --Blue50: hsl(220, 100%, 98%); /*  */
+  --Blue100: hsl(222, 90%, 94%); /* 背景 */
+  --Blue150: hsl(224, 83%, 89%); /* 卡片背景, 不重要的icon */
+  --Blue300: hsl(223, 85%, 80%); /* 邊匡, 不重要的標籤 */
+  --Blue500: hsl(228, 74%, 65%); /* 按鈕, 主要icon */
+  --Blue700: hsl(226, 75%, 35%); /* Hover */
+
+  --White: hsl(0, 0%, 100%); /*  */
+  --Gray200: hsl(0, 0%, 90%); /*  */
+  --Gray300: hsl(0, 0%, 73%); /*  */
+  --Gray900: hsl(0, 0%, 10%); /*  */
+
+  --Red100: hsl(0, 85%, 87%); /*  */
+  --Red500: hsl(0, 78%, 59%); /*  */
+
+
+  --yellow100: hsl(44, 98%, 83%); /*  */
+
+  --fontSize: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: var(--fontSize);
+  background-color: var(--Blue100);
+  color: var(--Gray900);
+}
+
+
+

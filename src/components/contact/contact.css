@@ -1,0 +1,43 @@
+.divider {
+  width: 8rem;
+  background-color: var(--Blue300);
+  height: 0.2rem;
+}
+
+.divider2 {
+  width: 17rem;
+  background-color: var(--Gray300);
+  margin: 0 auto;
+  height: 0.1rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 0.8rem 0;
+}
+
+.container {
+  margin-top: 1.2rem;
+  background-color: var(--White);
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.panel {
+  background-color: var(--Blue100);
+  border-radius: 0.8rem;
+}
+
+.panelItem {
+  width: 20rem;
+  border-radius: 0.8rem;
+  padding: 1.6rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.contentTitle {
+  color: var(--Gray300);
+}
