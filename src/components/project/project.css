@@ -78,3 +78,10 @@
   font-size: 0.8rem;
   text-decoration: none;
 }
+
+@media (hover: hover) {
+  .itemButton:hover {
+    background-color: var(--yellow150);
+    cursor: pointer;
+  }
+}
