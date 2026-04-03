@@ -6,13 +6,9 @@
 
 <template>
   <div class="main">
-    <header>
-      <identity />
-      <navbar />
-    </header>
-    <main>
-      <project />
-    </main>
+    <identity class="identity"/>
+    <navbar class="navbar"/>
+    <project class="content"/>
   </div>
 </template>
 

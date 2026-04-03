@@ -29,6 +29,12 @@
 }
 
 .panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.panelItem {
   width: 20rem;
   padding: 0.8rem;
   border-radius: 0.8rem;
@@ -41,6 +47,7 @@
 .itemImg {
   width: 100%;
   border-radius: 0.8rem;
+  height: 14rem;
 }
 
 .itemTag {

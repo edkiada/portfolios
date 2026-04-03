@@ -6,16 +6,12 @@
 
 <template>
   <div class="main">
-    <header>
-      <identity />
-      <navbar />
-    </header>
-    <main>
-      <resume />
-    </main>
+    <identity class="identity"/>
+    <navbar class="navbar"/>
+    <resume class="content"/>
   </div>
 </template>
 
 <style lang="css" scoped>
-  @import "../styles/resumeView.css";
+  @import "../styles/main.css";
 </style>
