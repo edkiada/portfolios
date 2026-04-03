@@ -24,7 +24,7 @@
 }
 
 .educationItem {
-  width: 20rem;
+  width: 100%;
   background-color: var(--yellow100);
   padding: 0.8rem;
   border-radius: 0.8rem;

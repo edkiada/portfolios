@@ -16,9 +16,9 @@
         <h2>Education</h2>
       </div>
       <article class="educationItem">
-        <p class="time">2025</p>
-        <p class="course">Responsive Web Design</p>
-        <p>freeCodeCamp</p>
+        <span class="time">2025</span>
+        <span class="course">Responsive Web Design</span>
+        <span>freeCodeCamp</span>
       </article>
       <article class="educationItem">
         <p class="time">2023 - present</p>
